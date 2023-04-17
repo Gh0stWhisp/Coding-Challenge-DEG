@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Scooter Lim Interface</title>
+    <link rel="stylesheet" href="style.css"> <!--Css Attach-->
+    <!-- Font Style-->
+</head>
+    <body>
+        <!-- Black BOX Container-->
+        <div class="container">
+
+            <!-- Header (Logo and Title)-->
+            <header>
+                <img id="logo" src="logo.png">
+                <span>Taking Booleaners from A ▶ to ▶ B</span> <!-- content: "&#9654" per la freccia-->
+            </header>
+
+            <!-- Navigation Menù-->
+            <nav>
+                <button type="button" name="booking">Booking</button>
+                <button type="button" name="ending">Booking Ending</button>
+                <button type="button" name="lights">Turn Light On</button>
+            </nav>
+
+            <!-- Main (Lim and battery)-->
+            <main>
+
+                <!-- Scooter A-->
+                <selection class="scooter">
+                    <input type="checkbox" name="scooter-selection" value="booked">
+                        <span class="scooter-name">Scooter Ventura #2076</span>
+                        <span class="distance">↦Via Hawaii 167, a <span class="meters">200</span> metri da te!</span>
+                        <div>Charged State: <span class="percent1">100%</span></div>
+                        <div class="full-battery"></div>
+                </selection>
+
+                <!-- Scooter B-->
+                <selection class="scooter">
+                    <input type="checkbox" name="scooter-selection" value="booked">
+                        <span class="scooter-name">Scooter Truman #2073</span>
+                        <span class="distance">↦Via Show 32, a <span class="meters">320</span> metri da te!</span>
+                        <div>Charged State: <span class="percent2">50%</span></div>
+                        <div class="medium-battery"></div>
+                </selection>
+
+                <!-- Scooter C-->
+                <selection class="scooter">
+                    <input type="checkbox" name="scooter-selection" value="booked">
+                        <span class="scooter-name">Scooter Grinch #2074</span>
+                        <span class="distance">↦Via Chinonsò 28, a <span class="meters">520</span> metri da te!</span>
+                        <div>Charged State: <span class="percent3">20%</span></div>
+                        <div class="low-battery"></div>
+                </selection>
+
+                <!--Tip Message-->
+                <div class=" Tip-Message"> Scooter Ventura #2076<br>
+                    <span id="txt">is the best choice for you!<br>
+                    Go to ▶ take ▶ it!</span></div>
+            </main>
+        </div>
+    </body>
+</html>

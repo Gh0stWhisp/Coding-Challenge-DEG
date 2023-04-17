@@ -1,0 +1,127 @@
+body{ /*body customization*/
+    background-image: url(background.jpg);
+    background-size: cover;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 65%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{ /*Black Background + Opacity*/
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    padding: 100px;
+}
+
+#logo{ /*Logo*/
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;   
+}
+
+header{ /*head*/
+    text-align: center;
+    color: lime;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+nav{ /*navigation menù*/
+    padding: 10px;
+    text-align: center;
+    background-color: lime;
+    border-radius: 6px;
+}
+
+nav > button{ /*navigation childs for button custom*/
+    background-color: rgb(255, 255, 255);
+    border-color: #ffffff;
+    color: #00af37;
+    font-size: 20px;
+    padding: 10px ;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+main{ /*main def. font color & margin distance from the edge of the nav*/
+    color: white;
+    margin-top: 20px;
+}
+
+.scooter{ /*distance between "selections"*/
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.scooter > .scooter-name{ /*scooter names size*/
+    font-size: 20px;
+}
+
+.scooter > .distance{ /*distance "br"*/
+    display: block;
+}
+
+/*custom color for battery % */
+.percent1{
+    color:lime;
+}
+.percent2{
+    color:yellow;
+}
+.percent3{
+    color:red;
+}
+
+.meters{ /*meters custom background*/
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: limegreen;
+    padding: 2px;
+}
+
+/*battery bars*/
+.full-battery{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 25px;
+    text-align: left;
+    background-color: lime;
+    border-radius: 6px; 
+}
+
+.medium-battery{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 50%;
+    height: 25px;
+    text-align: left;
+    background-color: yellow;
+    border-radius: 6px;
+}
+
+.low-battery{
+    margin-top: 10px;
+    width: 20%;
+    height: 25px;
+    text-align: left;
+    background-color: red;
+    border-radius: 6px;
+}
+
+/*Tip-Message*/
+.Tip-Message{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: lime;
+}
+
+#txt{
+    color: white;
+    font-size: 30px;
+}
